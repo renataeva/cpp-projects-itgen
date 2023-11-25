@@ -166,7 +166,6 @@ int main() {
     int froggit = 30;
     int frisk = 20;
     while (true){
-        cout << "start again: " << room << endl;
         while (room == 0) {
             first_room_interactions(&inventory, &stats, &can_go_out, &room);
         }
