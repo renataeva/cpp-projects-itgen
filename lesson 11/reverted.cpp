@@ -9,7 +9,7 @@ int main () {
     string s;
     string r;
     string temp;
-    cin >> s;
+    getline(cin, s);
     for(int i = s.length(); i > -1; i--){
         temp = s.substr(i, 1);
         r.append(temp);
