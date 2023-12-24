@@ -19,4 +19,4 @@ int main () {
         a.append(s.substr(9, 9));
     }
     cout << a;
-}  
+}
